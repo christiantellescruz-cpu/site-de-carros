@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Carros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site de Carros!</h1>
+        <nav>
+            <ul>
+                <li><a href="#carros">Carros</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="carros">
+        <h2>Modelos de Carros</h2>
+        <div class="carro">
+            <h3>Carro 1</h3>
+            <img src="carro1.jpg" alt="Carro 1">
+            <p>Descrição do Carro 1.</p>
+        </div>
+        <div class="carro">
+            <h3>Carro 2</h3>
+            <img src="carro2.jpg" alt="Carro 2">
+            <p>Descrição do Carro 2.</p>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos apaixonados por carros e queremos compartilhar nossa paixão com você!</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Site de Carros</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
